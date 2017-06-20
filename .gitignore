@@ -35,3 +35,6 @@
 
 # documentation
 /doc/
+
+# moviefile
+*.mov

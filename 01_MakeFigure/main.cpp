@@ -5,6 +5,7 @@
 
 void display(void) {
     glClear(GL_COLOR_BUFFER_BIT);
+    // 描画開始
     glBegin(GL_POLYGON);
     glColor3d(1.0, 0.0, 0.0);
     glVertex2d(-0.9, -0.9);
@@ -15,6 +16,7 @@ void display(void) {
     glColor3d(1.0, 1.0, 0.0);
     glVertex2d(-0.9, 0.9);
     glEnd();
+    // 描画終了
     glFlush();
 }
 
